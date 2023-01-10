@@ -1,2 +1,3 @@
-tutorial from https://workshops.hackclub.com/dodge/. 
-this is pretty bad and the code is basically copied, but everyone starts somewhere
+tutorial from https://workshops.hackclub.com/dodge/. <br>
+this is pretty bad and the code is basically copied, but everyone starts somewhere. <br>
+assets by me

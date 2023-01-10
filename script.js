@@ -18,7 +18,6 @@ function setup() {
   player.addImage(playerImage);
   enemy = createSprite(width / 2, 0, 0, 0);
   enemy.addImage(enemyImage);
-  enemyImage.resize(23, 22);
 }
 
 function draw() {

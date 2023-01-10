@@ -18,7 +18,9 @@ function setup() {
   player.addImage(playerImage);
   enemy = createSprite(width / 2, 0, 0, 0);
   enemy.addImage(enemyImage);
-  enemy.rotationSpeed = 4.0;
+  player.center();
+  enemy.center();
+  backgroundImage.center();
 }
 
 function draw() {
@@ -41,6 +43,7 @@ function draw() {
       enemy.position.x = random(5, width - 5);
     }
     drawSprites();
+    enemy.resize(23,22);
   }
 }
 

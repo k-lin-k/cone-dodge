@@ -18,9 +18,6 @@ function setup() {
   player.addImage(playerImage);
   enemy = createSprite(width / 2, 0, 0, 0);
   enemy.addImage(enemyImage);
-  player.center();
-  enemy.center();
-  backgroundImage.center();
 }
 
 function draw() {
